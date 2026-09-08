@@ -1,0 +1,73 @@
+{
+  "$schema": "https://zenodo.org/schemas/deposits/records/record-v1.0.0.json",
+  "metadata": {
+    "title": "Cross-Lingual Social Fatigue on Mastodon: 63,797 LLM-Verified Fatigue Expressions and Annotation Pipeline",
+    "upload_type": "dataset",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "version": "1.0",
+    "language": "eng",
+    "description": "Companion data and code release for the Information Processing & Management paper \"Understanding Cross-Lingual Social Fatigue in Decentralized Social Media: An LLM-Enhanced Computational Analysis of 26 Million Mastodon Posts.\"<br><br>This deposit contains per-post fatigue labels for 63,797 verified fatigue expressions, drawn from a 26.3-million-post multilingual Mastodon corpus (FediLive archive). Each record carries a stable post URI, language, linguistic group, a semicolon-joined set of five dimensional labels (physical_fatigue, mental_cognitive_fatigue, emotional_fatigue, digital_social_fatigue, existential_resignation), and a per-dimension confidence score (0 = absent). Labels were produced by a zero-shot verification pass with Qwen3-8B-Instruct; a second annotator (DeepSeek-V4-Flash) was used in the accompanying sensitivity analysis.<br><br>Also included: the fatigue keyword taxonomies used for candidate retrieval -- an English taxonomy (fatigue_taxonomy.json) and an expanded multilingual taxonomy covering Japanese, German, French, Spanish, Dutch, and Portuguese (fatigue_taxonomy_multilingual.json), together with their source -- the English and non-English verification prompts and user-message template, and the analysis code that reproduces every result in the paper (lexicon retrieval, BERT re-ranking, full-corpus labeling, robustness/AN-01 and AN-02 sensitivity analyses, and the release-building script).<br><br>Ethical note: raw post text is intentionally NOT redistributed, to respect Fediverse community norms and minimize re-identification risk. Each record carries only a stable post URI from which the original public post can be re-derived via the FediLive archive; no personally identifying information is included. Because the study uses only publicly accessible, non-identifiable social-media content and involves no interaction with or intervention on users, it does not constitute human-subjects research and was exempt from IRB approval.",
+    "keywords": [
+      "social fatigue",
+      "Mastodon",
+      "Fediverse",
+      "decentralized social media",
+      "cross-lingual analysis",
+      "LLM annotation",
+      "Computational Social Science"
+    ],
+    "creators": [
+      {
+        "name": "Surname, Given Name",
+        "affiliation": "Institution (to be completed)",
+        "orcid": "0000-0000-0000-0000"
+      },
+      {
+        "name": "Surname, Given Name",
+        "affiliation": "Institution (to be completed)",
+        "orcid": "0000-0000-0000-0000"
+      },
+      {
+        "name": "Surname, Given Name",
+        "affiliation": "Institution (to be completed)",
+        "orcid": "0000-0000-0000-0000"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Zenodo",
+        "type": "hosting_institution"
+      }
+    ],
+    "references": [
+      "Min, H., et al. (2025). FediLive: A live-feed archive of the Fediverse. [Corresponding citation to be inserted once published.]"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://doi.org/10.1016/j.ipm.XXXX.XXXXX",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://github.com/USER/REPO",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "communities": [
+      {
+        "identifier": "cs-socmedia"
+      }
+    ],
+    "notes": "Top-level license is CC-BY-4.0 (data, lexicon, prompts). The analysis code in code/ is released under the MIT License (see LICENSE). Raw post text is excluded; post URIs permit re-derivation from the public FediLive archive.",
+    "method": "Fatigue candidates were retrieved with a multilingual keyword lexicon, optionally re-ranked with multilingual sentence-transformer embeddings (BERT re-ranking), and verified zero-shot with Qwen3-8B-Instruct at temperature 0.1. Per-post records report a 5-dimension label set and confidence weights. A second LLM annotator (DeepSeek-V4-Flash) provided independent labels for annotator-sensitivity analysis.",
+    "rights": [
+      {
+        "license": "cc-by-4.0"
+      }
+    ]
+  }
+}
