@@ -49,12 +49,6 @@
         "relation": "isSupplementTo",
         "resource_type": "publication-article",
         "scheme": "doi"
-      },
-      {
-        "identifier": "https://github.com/YhWu114/social-fatigue-mastodon-data",
-        "relation": "isSupplementTo",
-        "resource_type": "software",
-        "scheme": "url"
       }
     ],
     "communities": [
