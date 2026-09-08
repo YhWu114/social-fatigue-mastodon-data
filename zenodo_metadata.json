@@ -20,24 +20,15 @@
     "creators": [
       {
         "name": "Surname, Given Name",
-        "affiliation": "Institution (to be completed)",
-        "orcid": "0000-0000-0000-0000"
+        "affiliation": "Institution (to be completed)"
       },
       {
         "name": "Surname, Given Name",
-        "affiliation": "Institution (to be completed)",
-        "orcid": "0000-0000-0000-0000"
+        "affiliation": "Institution (to be completed)"
       },
       {
         "name": "Surname, Given Name",
-        "affiliation": "Institution (to be completed)",
-        "orcid": "0000-0000-0000-0000"
-      }
-    ],
-    "contributors": [
-      {
-        "name": "Zenodo",
-        "type": "hosting_institution"
+        "affiliation": "Institution (to be completed)"
       }
     ],
     "references": [
@@ -51,17 +42,7 @@
         "scheme": "doi"
       }
     ],
-    "communities": [
-      {
-        "identifier": "cs-socmedia"
-      }
-    ],
     "notes": "Top-level license is CC-BY-4.0 (data, lexicon, prompts). The analysis code in code/ is released under the MIT License (see LICENSE). Raw post text is excluded; post URIs permit re-derivation from the public FediLive archive.",
-    "method": "Fatigue candidates were retrieved with a multilingual keyword lexicon, optionally re-ranked with multilingual sentence-transformer embeddings (BERT re-ranking), and verified zero-shot with Qwen3-8B-Instruct at temperature 0.1. Per-post records report a 5-dimension label set and confidence weights. A second LLM annotator (DeepSeek-V4-Flash) provided independent labels for annotator-sensitivity analysis.",
-    "rights": [
-      {
-        "license": "cc-by-4.0"
-      }
-    ]
+    "method": "Fatigue candidates were retrieved with a multilingual keyword lexicon, optionally re-ranked with multilingual sentence-transformer embeddings (BERT re-ranking), and verified zero-shot with Qwen3-8B-Instruct at temperature 0.1. Per-post records report a 5-dimension label set and confidence weights. A second LLM annotator (DeepSeek-V4-Flash) provided independent labels for annotator-sensitivity analysis."
   }
 }

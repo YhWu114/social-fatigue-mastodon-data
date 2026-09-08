@@ -69,8 +69,10 @@ def main():
     # 2) upload files into the bucket, preserving relative paths
     for rel in iter_files():
         data = (ROOT / rel).read_bytes()
-        # Zenodo bucket upload uses the filename; we keep the relative path as name
-        r = requests.put(f"{bucket}/{rel.as_posix()}",
+        # Zenodo bucket API only accepts single-segment keys (no '/'),
+        # so flatten the relative path into the filename.
+        key = rel.as_posix().replace("/", "_")
+        r = requests.put(f"{bucket}/{key}",
                          data=data, headers=headers)
         if r.status_code >= 400:
             sys.exit(f"upload failed for {rel}: {r.status_code} {r.text}")
