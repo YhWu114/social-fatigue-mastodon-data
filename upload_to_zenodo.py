@@ -30,7 +30,7 @@ API = {
 }
 
 # top-level entries to skip (the upload script itself + the metadata file)
-SKIP = {"upload_to_zenodo.py", "zenodo_metadata.json"}
+SKIP = {"upload_to_zenodo.py", "zenodo_metadata.json", ".gitignore"}
 
 
 def iter_files():
@@ -38,7 +38,7 @@ def iter_files():
         if not p.is_file():
             continue
         rel = p.relative_to(ROOT)
-        if rel.name in SKIP or rel.parts[0] == "__pycache__":
+        if rel.name in SKIP or rel.parts[0] in (".git", "__pycache__"):
             continue
         yield rel
 
