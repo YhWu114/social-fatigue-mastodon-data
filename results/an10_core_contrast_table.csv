@@ -1,0 +1,5 @@
+theme,ref_topic,comparison,expected,seeds_retaining_direction,seeds_total,mean_diff_pp,min_diff_pp,max_diff_pp
+family,1,zh-S vs en,a>b,10,10,18.05,5.11,29.85
+platform,2,en vs zh-S,a>b,10,10,17.97,16.1,20.03
+daily-life,0,ja vs nl,a>b,8,10,1.96,-3.56,6.06
+fascist,3,de vs nl,a>b,10,10,2.22,0.33,4.94
