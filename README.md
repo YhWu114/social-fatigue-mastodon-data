@@ -1,6 +1,4 @@
-# Social Fatigue on Mastodon - Data Release (AN-15)
-
-Companion data and code for the IP&M paper on cross-cultural social fatigue on Mastodon.
+# Social Fatigue on Mastodon - Data Release 
 
 ## Contents
 | File | Description |
