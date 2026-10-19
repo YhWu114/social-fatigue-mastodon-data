@@ -1,0 +1,7 @@
+{
+  "stratified_sample": 1295,
+  "candidate_requests": 884,
+  "excluded": 411,
+  "request_reduction_percent": 31.7,
+  "scope": "Requests on the stratified sample, not full-pipeline wall-clock time."
+}

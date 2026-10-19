@@ -1,0 +1,154 @@
+topic_id,topic,group,posts,denominator,percent
+T01,Work and employment,en,4751,27107,17.526838086103222
+T01,Work and employment,zh-S,1736,9004,19.280319857840958
+T01,Work and employment,ja,679,3962,17.137809187279153
+T01,Work and employment,de,312,1940,16.082474226804123
+T01,Work and employment,zh-T,140,714,19.607843137254903
+T01,Work and employment,fr,150,577,25.996533795493935
+T01,Work and employment,es,106,481,22.037422037422036
+T01,Work and employment,pt,29,143,20.27972027972028
+T01,Work and employment,nl,35,164,21.341463414634145
+T02,Study and education,en,606,27107,2.2355849042682703
+T02,Study and education,zh-S,617,9004,6.85250999555753
+T02,Study and education,ja,83,3962,2.094901564866229
+T02,Study and education,de,40,1940,2.0618556701030926
+T02,Study and education,zh-T,50,714,7.002801120448179
+T02,Study and education,fr,18,577,3.119584055459272
+T02,Study and education,es,33,481,6.860706860706861
+T02,Study and education,pt,6,143,4.195804195804196
+T02,Study and education,nl,2,164,1.2195121951219512
+T03,Sleep and rest,en,7008,27107,25.85310067510237
+T03,Sleep and rest,zh-S,1666,9004,18.50288760550866
+T03,Sleep and rest,ja,1111,3962,28.041393235739527
+T03,Sleep and rest,de,477,1940,24.587628865979383
+T03,Sleep and rest,zh-T,155,714,21.708683473389357
+T03,Sleep and rest,fr,98,577,16.984402079722702
+T03,Sleep and rest,es,68,481,14.137214137214137
+T03,Sleep and rest,pt,17,143,11.888111888111888
+T03,Sleep and rest,nl,41,164,25.0
+T04,Health and medical care,en,9822,27107,36.2341830523481
+T04,Health and medical care,zh-S,3428,9004,38.071968014215905
+T04,Health and medical care,ja,1510,3962,38.1120646138314
+T04,Health and medical care,de,707,1940,36.44329896907217
+T04,Health and medical care,zh-T,287,714,40.19607843137255
+T04,Health and medical care,fr,280,577,48.52686308492201
+T04,Health and medical care,es,179,481,37.21413721413722
+T04,Health and medical care,pt,50,143,34.96503496503497
+T04,Health and medical care,nl,74,164,45.1219512195122
+T05,Household and everyday tasks,en,3047,27107,11.240638949348877
+T05,Household and everyday tasks,zh-S,713,9004,7.918702798756108
+T05,Household and everyday tasks,ja,382,3962,9.641595153962646
+T05,Household and everyday tasks,de,193,1940,9.948453608247423
+T05,Household and everyday tasks,zh-T,75,714,10.504201680672269
+T05,Household and everyday tasks,fr,46,577,7.972270363951473
+T05,Household and everyday tasks,es,34,481,7.0686070686070686
+T05,Household and everyday tasks,pt,7,143,4.895104895104895
+T05,Household and everyday tasks,nl,34,164,20.73170731707317
+T06,Caregiving,en,1255,27107,4.629800420555576
+T06,Caregiving,zh-S,223,9004,2.476677032430031
+T06,Caregiving,ja,48,3962,1.2115093387178193
+T06,Caregiving,de,89,1940,4.587628865979381
+T06,Caregiving,zh-T,26,714,3.641456582633053
+T06,Caregiving,fr,32,577,5.545927209705373
+T06,Caregiving,es,19,481,3.95010395010395
+T06,Caregiving,pt,5,143,3.4965034965034967
+T06,Caregiving,nl,10,164,6.097560975609756
+T07,Exercise and outdoor activities,en,2021,27107,7.455638764894677
+T07,Exercise and outdoor activities,zh-S,471,9004,5.231008440693025
+T07,Exercise and outdoor activities,ja,186,3962,4.69459868753155
+T07,Exercise and outdoor activities,de,152,1940,7.835051546391752
+T07,Exercise and outdoor activities,zh-T,50,714,7.002801120448179
+T07,Exercise and outdoor activities,fr,44,577,7.625649913344887
+T07,Exercise and outdoor activities,es,36,481,7.484407484407485
+T07,Exercise and outdoor activities,pt,5,143,3.4965034965034967
+T07,Exercise and outdoor activities,nl,26,164,15.853658536585366
+T08,Travel and commuting,en,1191,27107,4.393699044527244
+T08,Travel and commuting,zh-S,457,9004,5.075521990226566
+T08,Travel and commuting,ja,235,3962,5.931347804139324
+T08,Travel and commuting,de,155,1940,7.989690721649485
+T08,Travel and commuting,zh-T,35,714,4.901960784313726
+T08,Travel and commuting,fr,35,577,6.065857885615252
+T08,Travel and commuting,es,19,481,3.95010395010395
+T08,Travel and commuting,pt,3,143,2.097902097902098
+T08,Travel and commuting,nl,16,164,9.75609756097561
+T09,Creative projects,en,2459,27107,9.071457557088575
+T09,Creative projects,zh-S,695,9004,7.718791648156375
+T09,Creative projects,ja,167,3962,4.215042907622413
+T09,Creative projects,de,92,1940,4.742268041237113
+T09,Creative projects,zh-T,54,714,7.563025210084033
+T09,Creative projects,fr,46,577,7.972270363951473
+T09,Creative projects,es,38,481,7.9002079002079
+T09,Creative projects,pt,12,143,8.391608391608392
+T09,Creative projects,nl,4,164,2.4390243902439024
+T10,"Games, reading and entertainment",en,3549,27107,13.092559117571106
+T10,"Games, reading and entertainment",zh-S,2080,9004,23.100844069302532
+T10,"Games, reading and entertainment",ja,488,3962,12.317011610297829
+T10,"Games, reading and entertainment",de,171,1940,8.814432989690722
+T10,"Games, reading and entertainment",zh-T,142,714,19.88795518207283
+T10,"Games, reading and entertainment",fr,68,577,11.785095320623917
+T10,"Games, reading and entertainment",es,67,481,13.92931392931393
+T10,"Games, reading and entertainment",pt,14,143,9.79020979020979
+T10,"Games, reading and entertainment",nl,26,164,15.853658536585366
+T12,"Equipment, software and technical tasks",en,2736,27107,10.0933338252112
+T12,"Equipment, software and technical tasks",zh-S,276,9004,3.065304309195913
+T12,"Equipment, software and technical tasks",ja,122,3962,3.0792529025744573
+T12,"Equipment, software and technical tasks",de,96,1940,4.948453608247423
+T12,"Equipment, software and technical tasks",zh-T,35,714,4.901960784313726
+T12,"Equipment, software and technical tasks",fr,37,577,6.412478336221837
+T12,"Equipment, software and technical tasks",es,36,481,7.484407484407485
+T12,"Equipment, software and technical tasks",pt,5,143,3.4965034965034967
+T12,"Equipment, software and technical tasks",nl,9,164,5.487804878048781
+T13,Social platforms and online interaction,en,5639,27107,20.802744678496328
+T13,Social platforms and online interaction,zh-S,849,9004,9.429142603287428
+T13,Social platforms and online interaction,ja,186,3962,4.69459868753155
+T13,Social platforms and online interaction,de,173,1940,8.917525773195877
+T13,Social platforms and online interaction,zh-T,52,714,7.282913165266106
+T13,Social platforms and online interaction,fr,58,577,10.051993067590988
+T13,Social platforms and online interaction,es,69,481,14.345114345114345
+T13,Social platforms and online interaction,pt,15,143,10.48951048951049
+T13,Social platforms and online interaction,nl,10,164,6.097560975609756
+T14,Relationships and social activities,en,2687,27107,9.912568709189507
+T14,Relationships and social activities,zh-S,1757,9004,19.513549533540647
+T14,Relationships and social activities,ja,305,3962,7.698132256436144
+T14,Relationships and social activities,de,165,1940,8.505154639175258
+T14,Relationships and social activities,zh-T,137,714,19.18767507002801
+T14,Relationships and social activities,fr,72,577,12.478336221837088
+T14,Relationships and social activities,es,66,481,13.721413721413722
+T14,Relationships and social activities,pt,13,143,9.090909090909092
+T14,Relationships and social activities,nl,24,164,14.634146341463415
+T15,"Politics, news and public issues",en,2047,27107,7.551554948906187
+T15,"Politics, news and public issues",zh-S,150,9004,1.6659262549977787
+T15,"Politics, news and public issues",ja,51,3962,1.287228672387683
+T15,"Politics, news and public issues",de,209,1940,10.77319587628866
+T15,"Politics, news and public issues",zh-T,11,714,1.5406162464985995
+T15,"Politics, news and public issues",fr,59,577,10.225303292894282
+T15,"Politics, news and public issues",es,36,481,7.484407484407485
+T15,"Politics, news and public issues",pt,11,143,7.6923076923076925
+T15,"Politics, news and public issues",nl,13,164,7.926829268292683
+T16,"Finances, housing and administration",en,974,27107,3.59316781643118
+T16,"Finances, housing and administration",zh-S,327,9004,3.6317192358951575
+T16,"Finances, housing and administration",ja,59,3962,1.4891468955073195
+T16,"Finances, housing and administration",de,44,1940,2.268041237113402
+T16,"Finances, housing and administration",zh-T,21,714,2.9411764705882355
+T16,"Finances, housing and administration",fr,23,577,3.9861351819757367
+T16,"Finances, housing and administration",es,11,481,2.286902286902287
+T16,"Finances, housing and administration",pt,10,143,6.993006993006993
+T16,"Finances, housing and administration",nl,2,164,1.2195121951219512
+T17,Discrimination and exclusion,en,336,27107,1.2395322241487439
+T17,Discrimination and exclusion,zh-S,58,9004,0.6441581519324745
+T17,Discrimination and exclusion,ja,14,3962,0.35335689045936397
+T17,Discrimination and exclusion,de,19,1940,0.979381443298969
+T17,Discrimination and exclusion,zh-T,3,714,0.42016806722689076
+T17,Discrimination and exclusion,fr,8,577,1.3864818024263432
+T17,Discrimination and exclusion,es,5,481,1.0395010395010396
+T17,Discrimination and exclusion,pt,2,143,1.3986013986013985
+T17,Discrimination and exclusion,nl,2,164,1.2195121951219512
+T18,Weather and environment,en,1339,27107,4.939683476592762
+T18,Weather and environment,zh-S,264,9004,2.9320302087960908
+T18,Weather and environment,ja,201,3962,5.073195355880868
+T18,Weather and environment,de,116,1940,5.979381443298969
+T18,Weather and environment,zh-T,22,714,3.081232492997199
+T18,Weather and environment,fr,24,577,4.15944540727903
+T18,Weather and environment,es,12,481,2.494802494802495
+T18,Weather and environment,pt,3,143,2.097902097902098
+T18,Weather and environment,nl,12,164,7.317073170731708

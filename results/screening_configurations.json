@@ -1,0 +1,47 @@
+[
+  {
+    "configuration": "keywords_only",
+    "reviewer1_agreement": 33.9,
+    "reviewer1_kappa": 0,
+    "reviewer2_agreement": 20.7,
+    "reviewer2_kappa": 0,
+    "reviewer1_n": 59,
+    "reviewer2_n": 58
+  },
+  {
+    "configuration": "earlier_full_review",
+    "reviewer1_agreement": 74.6,
+    "reviewer1_kappa": 0.5,
+    "reviewer2_agreement": 69.0,
+    "reviewer2_kappa": 0.392,
+    "reviewer1_n": 59,
+    "reviewer2_n": 58
+  },
+  {
+    "configuration": "keywords_earlier_short",
+    "reviewer1_agreement": 78.0,
+    "reviewer1_kappa": 0.576,
+    "reviewer2_agreement": 65.5,
+    "reviewer2_kappa": 0.35,
+    "reviewer1_n": 59,
+    "reviewer2_n": 58
+  },
+  {
+    "configuration": "keywords_earlier_full",
+    "reviewer1_agreement": 76.3,
+    "reviewer1_kappa": 0.548,
+    "reviewer2_agreement": 63.8,
+    "reviewer2_kappa": 0.33,
+    "reviewer1_n": 59,
+    "reviewer2_n": 58
+  },
+  {
+    "configuration": "FatigueScan",
+    "reviewer1_agreement": 83.1,
+    "reviewer1_kappa": 0.602,
+    "reviewer2_agreement": 91.4,
+    "reviewer2_kappa": 0.76,
+    "reviewer1_n": 59,
+    "reviewer2_n": 58
+  }
+]

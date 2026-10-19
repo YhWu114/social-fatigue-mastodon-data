@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+private_work/
+*.sqlite3*
+.env
+*.log

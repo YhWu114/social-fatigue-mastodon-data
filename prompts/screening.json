@@ -1,0 +1,9 @@
+{
+  "temperature": 0,
+  "max_tokens": 512,
+  "seed": 20261016,
+  "enable_thinking": false,
+  "prompt": "请判断社交帖子是否表达了真实的疲劳体验，而不是仅仅情绪消极。\nphysical_fatigue：身体疲惫、困倦、缺觉或体力耗尽。\nmental_cognitive_fatigue：思考困难、注意力耗竭或脑力疲劳。\nemotional_fatigue：情绪上感到耗尽；单独的悲伤、焦虑或愤怒不自动算疲劳。\ndigital_social_fatigue：因线上信息、平台使用或社交互动而感到疲惫。\nexistential_resignation：与耗竭有关的放弃或退缩；普通悲观或反对意见不自动算疲劳。\n允许多个类型，也允许没有直接使用“疲劳”一词但清楚表达耗竭的帖子。\n需要区分作者体验和新闻、广告、自动更新、引用、虚构内容以及仅提到疲劳这个话题。\n抱怨可能包含真实疲劳，但没有耗竭成分的普通抱怨不算。不要仅凭话题、身份或关键词猜测。\n给出原文中的简短证据和一句英文理由。\nReturn ONLY one JSON object, with no markdown:\n{\"is_fatigue\": true, \"categories\": {\"physical_fatigue\": 0.9}, \"reason\": \"One short sentence\", \"evidence\": [\"short exact span from the post\"]}\nUse a boolean for is_fatigue. Include only applicable category names from the five\ntypes above. For a negative decision, use false, an empty categories object, and\nan empty evidence list. Do not invent evidence or translate the evidence spans.",
+  "retention_rule": "is_fatigue is true and at least one of the five valid fatigue types is present",
+  "model": "Qwen/Qwen3-8B"
+}

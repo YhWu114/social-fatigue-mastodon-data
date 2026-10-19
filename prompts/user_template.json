@@ -1,0 +1,3 @@
+{
+  "template": "Text: \"{text}\"\nAnalyze this and output ONLY valid JSON."
+}

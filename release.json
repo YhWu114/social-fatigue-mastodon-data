@@ -1,0 +1,17 @@
+{
+  "version": "2026-10-19",
+  "primary_records": 45096,
+  "distinct_primary_posts": 44975,
+  "topic_records": 44092,
+  "topics": 17,
+  "multitopic_records": 24019,
+  "unassigned_records": 2132,
+  "partially_unresolved_topic_records": 4291,
+  "diagnostic_own_fatigue_records": 37341,
+  "repeat_panel": 1343,
+  "repeat_common_sample": 715,
+  "repeat_runs": 10,
+  "public_scope": "Derived record-level labels and aggregate results; no raw posts, URIs, account/server identifiers, text hashes or exact timestamps.",
+  "inference_scope": "Run with researcher-supplied lawful post text, human examples, embeddings and prior candidates. Original text and examples are withheld.",
+  "historical_note": "Earlier Git commits describe superseded results and may contain post URIs. This update does not rewrite history."
+}
