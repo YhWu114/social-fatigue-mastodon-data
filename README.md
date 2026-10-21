@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python code/analyze_labels.py --output /tmp/fatiguescan-results
 ```
 
-See [the pipeline guide](code/PIPELINE.md) to run screening and topic assignment with locally supplied text and a local Qwen3-8B endpoint. Raw text and human reference examples are not distributed. Account/server checks require private metadata; their aggregate results are provided.
+The commands above use the released data without a language model. For new inference, researchers must prepare model weights, a compatible local inference service, and their own input text and reference examples. See [the pipeline guide](code/PIPELINE.md) for parameters and input formats. Model weights and private text are not distributed. Published statistical summaries and figures are included; account/server checks require private metadata.
 
 ## Privacy
 
